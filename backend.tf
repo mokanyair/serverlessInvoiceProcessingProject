@@ -1,18 +1,10 @@
-terraform {
-  cloud {
-    organization = "personal_projects_morganevipayee"
+terraform { 
+  cloud { 
+    
+    organization = "Enterpriseair-Datacenter" 
 
-    workspaces {
-      name = "serverlessInvoiceProcessingProject"
-    }
-  }
+    workspaces { 
+      name = "resources_1" 
+    } 
+  } 
 }
-
-#terraform {
-#    required_version = ">=1.0"
-#    backend "s3" {
-#        bucket = "compliancce-archive-docs-airveepayee"
-#        key = "cloudfron/dev/terraform.tfstate"
-#        region = "us-east-1"
-#    }
-#}
